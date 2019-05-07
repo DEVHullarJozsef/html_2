@@ -1,0 +1,13 @@
+JavaScript
+
+Egész egyszerű dolgok kezelésére való. (Amikor a felhasználó valamilyen interakcióba kezd a weblapon)
+- lehet vele módosítani HTML elemek tartalmát
+    böngésző konzoljába : document.querySelector("h1") -> megkeresi az első h1 elemet
+    a kiválasztott elem HTML tartalma: document.querySelector("h1").innerHTML="érték"
+    - a szerveren ettől nem változik semmi
+- HTML elem tulajdonságának megváltoztatása
+
+Függvény : function függvény_neve() {...}
+    - meg tudja változtatni a HTML elemeknek atribútumait
+    - meg tudja változtatni a HTML elemek stílusát
+    
