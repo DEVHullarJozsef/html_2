@@ -10,3 +10,20 @@ function changeUrl() {
 function changeStyle() {
     document.querySelector("img").style.width = "40px";    
 }
+
+//validáció
+function validate(){
+    // Az input mező kiválasztása
+    var input =  document.querySelector(".input-validate");
+
+    //Az input mező értékének a kiolvasása
+    var inputValue = input.value;
+    var errorP = document.querySelector(".no-validate");
+    //Az input mező értéke nagyobb legyen mint 5 és kisebb mint 21
+    if (inputValue < 6 || inputValue > 20 )  {
+        errorP.innerHTML = "az érték nem megfelelő...";
+    } 
+    else {
+        errorP.innerHTML = "";
+    }
+}

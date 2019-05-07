@@ -9,5 +9,6 @@ Egész egyszerű dolgok kezelésére való. (Amikor a felhasználó valamilyen i
 
 Függvény : function függvény_neve() {...}
     - meg tudja változtatni a HTML elemeknek atribútumait
-    - meg tudja változtatni a HTML elemek stílusát
+    - meg tudja változtatni a HTML elemek stílusát : background-color => backgroundColor 
+    - ellenőrizzük az adatokat
     
